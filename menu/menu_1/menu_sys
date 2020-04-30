@@ -1,0 +1,32 @@
+print("""uname -m: mostrar la arquitectura de la máquina.
+
+uname -r: mostrar la versión del kernel usado.
+
+
+cat /proc/cpuinfo: mostrar información de la CPU.
+
+cat /proc/interrupts: mostrar las interrupciones.
+
+cat /proc/meminfo: verificar el uso de memoria.
+
+cat /proc/swaps: mostrar ficheros swap.
+
+cat /proc/version: mostrar la versión del kernel.
+
+cat /proc/net/dev: mostrar adaptadores de red y estadísticas.
+
+cat /proc/mounts: mostrar el sistema de ficheros montado.
+
+lspci -tv: mostrar los dispositivos PCI.
+
+lsusb -tv: mostrar los dispositivos USB.
+
+date: mostrar la fecha del sistema.
+
+cal 2020: mostrar el almanaque de 2020.
+
+cal 04 2020: mostrar el almanaque para el mes abril de 2020.
+
+date 041217002011.00: colocar (declarar, ajustar) fecha y hora.
+""")
+

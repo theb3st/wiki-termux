@@ -1,0 +1,28 @@
+print("""top: mostrar las tareas de linux usando la mayoría cpu.
+
+ps -eafw: muestra las tareas Linux.
+
+ps -e -o pid,args –forest: muestra las tareas Linux en un modo jerárquico.
+
+pstree: mostrar un árbol sistema de procesos.
+
+kill -9 ID_Processo: forzar el cierre de un proceso y terminarlo.
+
+kill -1 ID_Processo: forzar un proceso para recargar la configuración.
+
+lsof -p $$: mostrar una lista de ficheros abiertos por procesos.
+
+lsof /home/user1: muestra una lista de ficheros abiertos en un camino dado del sistema.
+
+strace -c ls >/dev/null: mostrar las llamadas del sistema hechas y recibidas por un proceso.
+
+strace -f -e open ls >/dev/null: mostrar las llamadas a la biblioteca.
+
+watch -n1 ‘cat /proc/interrupts’: mostrar interrupciones en tiempo real.
+
+free -m: muestra el estado de la RAM en megabytes.
+
+tail /var/log/dmesg: mostrar eventos inherentes al proceso de carga del kernel.
+
+tail /var/log/messages: mostrar los eventos del sistema.
+""")

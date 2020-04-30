@@ -1,0 +1,26 @@
+print("""cat file1 file2 .. | command <> file1_in.txt_or_file1_out.txt: sintaxis general para la manipulación de texto utilizando PIPE, STDIN y STDOUT.
+
+cat file1 | command( sed, grep, awk, grep, etc…) > result.txt: sintaxis general para manipular un texto de un fichero y escribir el resultado en un fichero nuevo.
+
+cat file1 | command( sed, grep, awk, grep, etc…) » result.txt: sintaxis general para manipular un texto de un fichero y añadir resultado en un fichero existente.
+
+grep Palabra archivo: buscar palabras “Palabra” en el fichero ‘archivo’.
+
+grep ^Aug /var/log/archivo.txt: buscar palabras que comienzan con “Aug” en fichero ‘/var/log/messages’
+
+grep [0-9] /var/log/messages: seleccionar todas las líneas del fichero ‘/var/log/messages’ que contienen números.
+
+grep Aug -R /var/log/*: buscar la cadena “Aug” en el directorio ‘/var/log’ y debajo.
+
+sed ‘s/stringa1/stringa2/g’ example.txt: reubicar “string1” con “string2” en ejemplo.txt
+
+sed ‘/^$/d’ example.txt: eliminar todas las líneas en blanco desde el ejemplo.txt
+
+sed ‘/ *#/d; /^$/d’ example.txt: eliminar comentarios y líneas en blanco de ejemplo.txt
+
+echo ‘esempio’ | tr ‘[:lower:]’ ‘[:upper:]’: convertir minúsculas en mayúsculas.
+
+sed -e ‘1d’ result.txt: elimina la primera línea del fichero ejemplo.txt
+
+sed -n ‘/stringa1/p’: visualizar solamente las líneas que contienen la palabra “string1”.
+""")

@@ -1,0 +1,22 @@
+print("""apropos …keyword: mostrar una lista de comandos que pertenecen a las palabras claves de un programa; son útiles cuando tú sabes qué hace tu programa, pero de sconoces el nombre del comando.
+
+man ping: mostrar las páginas del manual on-line; por ejemplo, en un comando ping, usar la opción ‘-k’ para encontrar cualquier comando relacionado.
+
+whatis …keyword: muestra la descripción de lo que hace el programa.
+
+gpg -c file1: codificar un fichero con guardia de seguridad GNU.
+
+gpg file1.gpg: decodificar un fichero con Guardia de seguridad GNU.
+
+wget -r www.example.com: descargar un sitio web completo.
+
+wget -c www.example.com/file.iso: descargar un fichero con la posibilidad de parar la descargar y reanudar más tarde.
+
+echo ‘wget -c www.example.com/files.iso‘ | at 09:00: Comenzar una descarga a cualquier hora. En este caso empezaría a las 9 horas.
+
+ldd /usr/bin/ssh: mostrar las bibliotecas compartidas requeridas por el programa ssh.
+
+chsh: cambiar el comando Shell.
+
+chsh –list-shells: es un comando adecuado para saber si tienes que hacer remoto en otra terminal.
+""")

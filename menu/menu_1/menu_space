@@ -1,0 +1,8 @@
+print("""df: mostrar una lista de las particiones montadas.
+
+ls -lSr |more: mostrar el tamaño de los ficheros y directorios ordenados por tamaño.
+
+du -sh dir1: Estimar el espacio usado por el directorio ‘dir1’.
+
+du -sk * | sort -rn: mostrar el tamaño de los ficheros y directorios ordenados por tamaño.
+""")

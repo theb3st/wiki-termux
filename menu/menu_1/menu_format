@@ -1,0 +1,10 @@
+print("""mkfs /dev/hda1: crear un fichero de sistema tipo Linux en la partición hda1.
+
+mke2fs /dev/hda1: crear un fichero de sistema tipo Linux ext 2 en hda1.
+
+mke2fs -j /dev/hda1: crear un fichero de sistema tipo Linux ext3 (periódico) en la partición hda1.
+
+mkfs -t vfat 32 -F /dev/hda1: crear un fichero de sistema FAT32 en hda1.
+
+mkswap /dev/hda3: crear un fichero de sistema swap.
+""")

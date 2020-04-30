@@ -1,0 +1,4 @@
+print("""passwd: cambiar contraseña.
+
+passwd user1: cambiar la contraseña de un usuario (solamente por root).
+""")
