@@ -75,7 +75,7 @@ case $opc in
           echo -e "\e[1;34mLISTA DE COMANDOS"
           echo ""
 	c
-          python menu_arc_cr
+          python menu_ar_cr
           echo ""
           read -p "PRESIONA ENTER PARA CONTINUAR..." cs
           if [[ $cs != "₩" ]];then
