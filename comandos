@@ -19,30 +19,28 @@ echo -e "\e[1;31m[1]\e[1;32m Comandos basicos"
 s
 echo -e "\e[1;31m[2]\e[1;32m Información del sistema"
 s
-echo -e "\e[1;31m[3]\e[1;32m Cerrar Sesión"
+echo -e "\e[1;31m[3]\e[1;32m Archivos y Directorios"
 s
-echo -e "\e[1;31m[4]\e[1;32m Archivos y Directorios"
+echo -e "\e[1;31m[4]\e[1;32m Encontrar/Buscar Archivos"
 s
-echo -e "\e[1;31m[5]\e[1;32m Encontrar/Buscar Archivos"
+echo -e "\e[1;31m[5]\e[1;32m Información sobre el espacio(ficheros)"
 s
-echo -e "\e[1;31m[6]\e[1;32m Información sobre el espacio(ficheros)"
+echo -e "\e[1;31m[6]\e[1;32m Administrar contraseñas"
 s
-echo -e "\e[1;31m[7]\e[1;32m Administrar contraseñas"
+echo -e "\e[1;31m[7]\e[1;32m Permisos en ficheros"
 s
-echo -e "\e[1;31m[8]\e[1;32m Permisos en ficheros"
-s
-echo -e "\e[1;31m[9]\e[1;32m Atributos Especiales"
-echo -e "\e[1;31m[10]\e[1;32m Archivos y Ficheros comprimidos"
-echo -e "\e[1;31m[11]\e[1;32m Paquetes DEB"
-echo -e "\e[1;31m[12]\e[1;32m Actualizador APT"
-echo -e "\e[1;31m[13]\e[1;32m Ver el contenido de un fichero"
-echo -e "\e[1;31m[14]\e[1;32m Malipunación de texto"
-echo -e "\e[1;31m[15]\e[1;32m Análisis del sistema de ficheros"
-echo -e "\e[1;31m[16]\e[1;32m Formatear un sistema de ficheros"
-echo -e "\e[1;31m[17]\e[1;32m Guardado(Backup)"
-echo -e "\e[1;31m[18]\e[1;32m Trabajo con la RED(lan y wi-fi"
-echo -e "\e[1;31m[19]\e[1;32m Moniteorado y depurado"
-echo -e "\e[1;31m[20]\e[1;32m Otros comandos"
+echo -e "\e[1;31m[8]\e[1;32m Atributos Especiales"
+echo -e "\e[1;31m[9]\e[1;32m Archivos y Ficheros comprimidos"
+echo -e "\e[1;31m[10]\e[1;32m Paquetes DEB"
+echo -e "\e[1;31m[11]\e[1;32m Actualizador APT"
+echo -e "\e[1;31m[12]\e[1;32m Ver el contenido de un fichero"
+echo -e "\e[1;31m[13]\e[1;32m Malipunación de texto"
+echo -e "\e[1;31m[14]\e[1;32m Análisis del sistema de ficheros"
+echo -e "\e[1;31m[15]\e[1;32m Formatear un sistema de ficheros"
+echo -e "\e[1;31m[16]\e[1;32m Guardado(Backup)"
+echo -e "\e[1;31m[17]\e[1;32m Trabajo con la RED(lan y wi-fi"
+echo -e "\e[1;31m[18]\e[1;32m Moniteorado y depurado"
+echo -e "\e[1;31m[19]\e[1;32m Otros comandos"
 echo -e "\e[1;31m[00]\e[1;32m Volver al menú"
 echo ""
 read -p "Elige una opción: " opc
@@ -77,7 +75,7 @@ case $opc in
           echo -e "\e[1;34mLISTA DE COMANDOS"
           echo ""
 	c
-          python menu_sys
+          python menu_arc_cr
           echo ""
           read -p "PRESIONA ENTER PARA CONTINUAR..." cs
           if [[ $cs != "₩" ]];then
@@ -89,7 +87,7 @@ case $opc in
           echo -e "\e[1;34mLISTA DE COMANDOS"
           echo ""
          c
-	  python menu_ar_cr
+	  python menu_fnd
           echo ""
           read -p "PRESIONA ENTER PARA CONTINUAR..." cs
           if [[ $cs != "₩" ]];then
@@ -101,7 +99,7 @@ case $opc in
           echo -e "\e[1;34mLISTA DE COMANDOS"
           echo ""
          c
-	  python menu_fnd
+	  python menu_space
           echo ""
           read -p "PRESIONA ENTER PARA CONTINUAR..." cs
           if [[ $cs != "₩" ]];then
