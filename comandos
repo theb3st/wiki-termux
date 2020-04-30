@@ -111,7 +111,7 @@ case $opc in
           echo -e "\e[1;34mLISTA DE COMANDOS"
           echo ""
           c
-	  python menu_space
+	  python menu_grps
           echo ""
           read -p "PRESIONA ENTER PARA CONTINUAR..." cs
           if [[ $cs != "₩" ]];then
@@ -123,7 +123,7 @@ case $opc in
           echo -e "\e[1;34mLISTA DE COMANDOS"
           echo ""
          c
-	  python menu_grps
+	  python menu_chm
           echo ""
           read -p "PRESIONA ENTER PARA CONTINUAR..." cs
           if [[ $cs != "₩" ]];then
@@ -135,7 +135,7 @@ case $opc in
           echo -e "\e[1;34mLISTA DE COMANDOS"
           echo ""
          c
-	  python menu_chm
+	  python menu_attr
           echo ""
           read -p "PRESIONA ENTER PARA CONTINUAR..." cs
           if [[ $cs != "₩" ]];then
@@ -147,7 +147,7 @@ case $opc in
           echo -e "\e[1;34mLISTA DE COMANDOS"
           echo ""
          c
-	  python menu_attr
+	  python menu_arc_com
           echo ""
           read -p "PRESIONA ENTER PARA CONTINUAR..." cs
           if [[ $cs != "₩" ]];then
@@ -159,7 +159,7 @@ case $opc in
           echo -e "\e[1;34mLISTA DE COMANDOS"
           echo ""
          c
-	  python menu_arc_com
+	  python menu_deb
           echo ""
           read -p "PRESIONA ENTER PARA CONTINUAR..." cs
           if [[ $cs != "₩" ]];then
@@ -171,7 +171,7 @@ case $opc in
           echo -e "\e[1;34mLISTA DE COMANDOS"
           echo ""
          c
-	  python menu_deb
+	  python menu_apt
           echo ""
           read -p "PRESIONA ENTER PARA CONTINUAR..." cs
           if [[ $cs != "₩" ]];then
@@ -183,7 +183,7 @@ case $opc in
           echo -e "\e[1;34mLISTA DE COMANDOS"
           echo ""
          c
-	  python menu_apt
+	  python menu_ver
           echo ""
           read -p "PRESIONA ENTER PARA CONTINUAR..." cs
           if [[ $cs != "₩" ]];then
@@ -195,7 +195,7 @@ case $opc in
           echo -e "\e[1;34mLISTA DE COMANDOS"
           echo ""
          c
-	  python menu_ver
+	  python menu_edit
           echo ""
           read -p "PRESIONA ENTER PARA CONTINUAR..." cs
           if [[ $cs != "₩" ]];then
@@ -207,7 +207,7 @@ case $opc in
           echo -e "\e[1;34mLISTA DE COMANDOS"
           echo ""
          c
-	  python menu_edit
+	  python menu_ali_fic
           echo ""
           read -p "PRESIONA ENTER PARA CONTINUAR..." cs
           if [[ $cs != "₩" ]];then
@@ -219,7 +219,7 @@ case $opc in
           echo -e "\e[1;34mLISTA DE COMANDOS"
           echo ""
          c
-	  python menu_ali_fic
+	  python menu_format
           echo ""
           read -p "PRESIONA ENTER PARA CONTINUAR..." cs
           if [[ $cs != "₩" ]];then
@@ -231,7 +231,7 @@ case $opc in
           echo -e "\e[1;34mLISTA DE COMANDOS"
           echo ""
          c
-	  python menu_format
+	  python menu_backup
           echo ""
           read -p "PRESIONA ENTER PARA CONTINUAR..." cs
           if [[ $cs != "₩" ]];then
@@ -243,7 +243,7 @@ case $opc in
           echo -e "\e[1;34mLISTA DE COMANDOS"
           echo ""
          c
-	  python menu_backup
+	  python menu_lan
           echo ""
           read -p "PRESIONA ENTER PARA CONTINUAR..." cs
           if [[ $cs != "₩" ]];then
@@ -255,7 +255,7 @@ case $opc in
           echo -e "\e[1;34mLISTA DE COMANDOS"
           echo ""
          c
-	  python menu_lan
+	  python menu_dep
           echo ""
           read -p "PRESIONA ENTER PARA CONTINUAR..." cs
           if [[ $cs != "₩" ]];then
@@ -267,25 +267,14 @@ case $opc in
           echo -e "\e[1;34mLISTA DE COMANDOS"
           echo ""
          c
-	  python menu_dep
-          echo ""
-          read -p "PRESIONA ENTER PARA CONTINUAR..." cs
-          if [[ $cs != "₩" ]];then
-          banner
-          fi
-          ;;				       
-	20)cd /data/data/com.termux/files/home/wiki-termux/menu/menu_1
-          echo ""
-          echo -e "\e[1;34mLISTA DE COMANDOS"
-          echo ""
-         c
 	  python menu_other
           echo ""
           read -p "PRESIONA ENTER PARA CONTINUAR..." cs
           if [[ $cs != "₩" ]];then
           banner
           fi
-          ;;
+          ;;				       
+	
 	00)
 					        
 	  bash /data/data/com.termux/files/home/wiki-termux/home.sh
