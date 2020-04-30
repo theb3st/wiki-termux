@@ -1,8 +1,6 @@
 banner(){
 clear
-python /data/data/com.termux/files/home/termux/banhome
-
-cd /data/data/com.termux/files/home/termux
+python /data/data/com.termux/files/home/wiki-termux/banhome
 red="\e[1;31m"
 gr="\e[1;32m"
 nd="\e[0m"
@@ -15,7 +13,8 @@ case $opc in
 	    ;;
 	2)bash librerias
 	    ;;
-	3)bash herramientas
+	3)cd /data/data/com.termux/files/home/wiki-termux
+	bash herramientas
 	    ;;
 	99)echo -e "\e[1;33mHASTA LUEGO :)"
 	sleep 0.5

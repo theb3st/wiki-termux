@@ -15,14 +15,15 @@ apt list --installed
 echo ""
 read -p "PRESIONA ENTER PARA CONTINUAR..." j
 elif [[ $me == 2 ]];then  
-bash /data/data/com.termux/files/home/termux/home.sh
+bash /data/data/com.termux/files/home/wiki-termux/home.sh
+				      
 else
 echo "Opción invalida [!]"
 sleep 0.5
-bash /data/data/com.termux/files/home/termux/home.sh
+bash /data/data/com.termux/files/home/wiki-termux/home.sh
 fi
 
 if [[ $j != "¤" ]];then
-bash /data/data/com.termux/files/home/termux/home.sh
+bash /data/data/com.termux/files/home/wiki-termux/home.sh
 fi
 

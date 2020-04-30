@@ -105,13 +105,13 @@ class main:
         break
       elif cmd=="00" or cmd=="0" or cmd=="exit":
         logo.exit()
-        os.system("bash /data/data/com.termux/files/home/termux/home.sh")
+        os.system("bash /data/data/com.termux/files/home/wiki-termux/home.sh")
         break
       else:
         print(f"\007\033[01;31mOpción invalida\033[00m")
         sleep(0.2)
         os.system("clear")
-
+        cd /data/data/com.termux/files/home/wiki-termux
 class tools:
   data=None
   names=None
@@ -119,9 +119,9 @@ class tools:
   category_data=None
   def __init__(self):
     system=sys()
-    with open("/data/data/com.termux/files/home/termux/menu/menu_3/dates/data.json") as data_file: 
+    with open("/data/data/com.termux/files/home/wiki-termux/menu/menu_3/dates/data.json") as data_file: 
       self.data=json.load(data_file)
-    with open("/data/data/com.termux/files/home/termux/menu/menu_3/dates/cat.json") as cat_file:
+    with open("/data/data/com.termux/files/home/wiki-termux/menu/menu_3/dates/cat.json") as cat_file:
       self.category_data=json.load(cat_file)
     self.names=list(self.data.keys())
     self.category=list(self.category_data.keys())

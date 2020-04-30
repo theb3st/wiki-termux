@@ -6,12 +6,4 @@ if __name__=="__main__":
   try:
     main.menu()
   except KeyboardInterrupt:
-    print("Deseas salir o volver al menú?(s/v): ")
-    a = input(">> ")
-  
-if (a =='s' or a =='S'):   
-    print("\033[1;33mHASTA LUEGO :)")
-elif(a =='v' or a =='V'): 
-    os.system("bash /data/data/com.termux/files/home/termux/home.sh")    
-else: 
-    print("Opción Invalida")
+    print("")

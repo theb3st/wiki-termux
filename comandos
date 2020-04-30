@@ -48,7 +48,7 @@ echo ""
 read -p "Elige una opción: " opc
 
 case $opc in
-	1)cd /data/data/com.termux/files/home/termux/menu/menu_1
+	1)cd /data/data/com.termux/files/home/wiki-termux/menu/menu_1
 	  echo ""
 	  echo -e "\e[1;34mLISTA DE COMANDOS"
 	  echo ""
@@ -59,8 +59,8 @@ case $opc in
 	  if [[ $cs != "₩" ]];then
 	  banner
 	  fi
-	  ;;
-	2)cd /data/data/com.termux/files/home/termux/menu/menu_1
+	  ;;				      
+	2)cd /data/data/com.termux/files/home/wiki-termux/menu/menu_1
           echo ""
           echo -e "\e[1;34mLISTA DE COMANDOS"
           echo ""
@@ -72,7 +72,7 @@ case $opc in
           banner
           fi
           ;;
-	3)cd /data/data/com.termux/files/home/termux/menu/menu_1
+	3)cd /data/data/com.termux/files/home/wiki-termux/menu/menu_1
           echo ""
           echo -e "\e[1;34mLISTA DE COMANDOS"
           echo ""
@@ -83,8 +83,8 @@ case $opc in
           if [[ $cs != "₩" ]];then
           banner
           fi
-          ;;
-	4)cd /data/data/com.termux/files/home/termux/menu/menu_1
+          ;;				      
+	4)cd /data/data/com.termux/files/home/wiki-termux/menu/menu_1
           echo ""
           echo -e "\e[1;34mLISTA DE COMANDOS"
           echo ""
@@ -96,7 +96,7 @@ case $opc in
           banner
           fi
           ;;
-	5)cd /data/data/com.termux/files/home/termux/menu/menu_1
+	5)cd /data/data/com.termux/files/home/wiki-termux/menu/menu_1
           echo ""
           echo -e "\e[1;34mLISTA DE COMANDOS"
           echo ""
@@ -107,8 +107,8 @@ case $opc in
           if [[ $cs != "₩" ]];then
           banner
           fi
-          ;;
-	6)cd /data/data/com.termux/files/home/termux/menu/menu_1
+          ;;				      
+	6)cd /data/data/com.termux/files/home/wiki-termux/menu/menu_1
           echo ""
           echo -e "\e[1;34mLISTA DE COMANDOS"
           echo ""
@@ -120,7 +120,7 @@ case $opc in
           banner
           fi
           ;;
-	7)cd /data/data/com.termux/files/home/termux/menu/menu_1
+	7)cd /data/data/com.termux/files/home/wiki-termux/menu/menu_1
           echo ""
           echo -e "\e[1;34mLISTA DE COMANDOS"
           echo ""
@@ -131,8 +131,8 @@ case $opc in
           if [[ $cs != "₩" ]];then
           banner
           fi
-          ;;
-	8)cd /data/data/com.termux/files/home/termux/menu/menu_1
+          ;;				      
+	8)cd /data/data/com.termux/files/home/wiki-termux/menu/menu_1
           echo ""
           echo -e "\e[1;34mLISTA DE COMANDOS"
           echo ""
@@ -144,7 +144,7 @@ case $opc in
           banner
           fi
           ;;
-	9)cd /data/data/com.termux/files/home/termux/menu/menu_1
+	9)cd /data/data/com.termux/files/home/wiki-termux/menu/menu_1
           echo ""
           echo -e "\e[1;34mLISTA DE COMANDOS"
           echo ""
@@ -155,8 +155,8 @@ case $opc in
           if [[ $cs != "₩" ]];then
           banner
           fi
-          ;;
-	10)cd /data/data/com.termux/files/home/termux/menu/menu_1
+          ;;				       
+	10)cd /data/data/com.termux/files/home/wiki-termux/menu/menu_1
           echo ""
           echo -e "\e[1;34mLISTA DE COMANDOS"
           echo ""
@@ -167,8 +167,8 @@ case $opc in
           if [[ $cs != "₩" ]];then
           banner
           fi
-          ;;
-	11)cd /data/data/com.termux/files/home/termux/menu/menu_1
+          ;;				       
+	11)cd /data/data/com.termux/files/home/wiki-termux/menu/menu_1
           echo ""
           echo -e "\e[1;34mLISTA DE COMANDOS"
           echo ""
@@ -179,8 +179,8 @@ case $opc in
           if [[ $cs != "₩" ]];then
           banner
           fi
-          ;;
-	12)cd /data/data/com.termux/files/home/termux/menu/menu_1
+          ;;				       
+	12)cd /data/data/com.termux/files/home/wiki-termux/menu/menu_1
           echo ""
           echo -e "\e[1;34mLISTA DE COMANDOS"
           echo ""
@@ -192,7 +192,7 @@ case $opc in
           banner
           fi
           ;;
-	13)cd /data/data/com.termux/files/home/termux/menu/menu_1
+	13)cd /data/data/com.termux/files/home/wiki-termux/menu/menu_1
           echo ""
           echo -e "\e[1;34mLISTA DE COMANDOS"
           echo ""
@@ -203,8 +203,8 @@ case $opc in
           if [[ $cs != "₩" ]];then
           banner
           fi
-          ;;
-	14)cd /data/data/com.termux/files/home/termux/menu/menu_1
+          ;;				       
+	14)cd /data/data/com.termux/files/home/wiki-termux/menu/menu_1
           echo ""
           echo -e "\e[1;34mLISTA DE COMANDOS"
           echo ""
@@ -216,7 +216,7 @@ case $opc in
           banner
           fi
           ;;
-	15)cd /data/data/com.termux/files/home/termux/menu/menu_1
+	15)cd /data/data/com.termux/files/home/wiki-termux/menu/menu_1
           echo ""
           echo -e "\e[1;34mLISTA DE COMANDOS"
           echo ""
@@ -227,8 +227,8 @@ case $opc in
           if [[ $cs != "₩" ]];then
           banner
           fi
-          ;;
-	16)cd /data/data/com.termux/files/home/termux/menu/menu_1
+          ;;					
+	16)cd /data/data/com.termux/files/home/wiki-termux/menu/menu_1
           echo ""
           echo -e "\e[1;34mLISTA DE COMANDOS"
           echo ""
@@ -239,8 +239,8 @@ case $opc in
           if [[ $cs != "₩" ]];then
           banner
           fi
-          ;;
-	17)cd /data/data/com.termux/files/home/termux/menu/menu_1
+          ;;					
+	17)cd /data/data/com.termux/files/home/wiki-termux/menu/menu_1
           echo ""
           echo -e "\e[1;34mLISTA DE COMANDOS"
           echo ""
@@ -251,8 +251,8 @@ case $opc in
           if [[ $cs != "₩" ]];then
           banner
           fi
-          ;;
-	18)cd /data/data/com.termux/files/home/termux/menu/menu_1
+          ;;					
+	18)cd /data/data/com.termux/files/home/wiki-termux/menu/menu_1
           echo ""
           echo -e "\e[1;34mLISTA DE COMANDOS"
           echo ""
@@ -263,8 +263,8 @@ case $opc in
           if [[ $cs != "₩" ]];then
           banner
           fi
-          ;;
-	19)cd /data/data/com.termux/files/home/termux/menu/menu_1
+          ;;				       
+	19)cd /data/data/com.termux/files/home/wiki-termux/menu/menu_1
           echo ""
           echo -e "\e[1;34mLISTA DE COMANDOS"
           echo ""
@@ -275,8 +275,8 @@ case $opc in
           if [[ $cs != "₩" ]];then
           banner
           fi
-          ;;
-	20)cd /data/data/com.termux/files/home/termux/menu/menu_1
+          ;;				       
+	20)cd /data/data/com.termux/files/home/wiki-termux/menu/menu_1
           echo ""
           echo -e "\e[1;34mLISTA DE COMANDOS"
           echo ""
@@ -289,7 +289,8 @@ case $opc in
           fi
           ;;
 	00)
-	  bash /data/data/com.termux/files/home/termux/home.sh
+					        
+	  bash /data/data/com.termux/files/home/wiki-termux/home.sh
 	   ;;
 	*)echo -e "\e[1;31mOpción invalida[!]"
 	  sleep 0.5
