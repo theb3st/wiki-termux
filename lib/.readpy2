@@ -1,0 +1,22 @@
+import os
+
+try:
+        a = input("\033[1;31mWIKI\033[1;39m-LIBRERIAS > ")
+
+        if a == "1" or a == "01":
+                os.system("bash /data/data/com.termux/files/home/wiki-termux/menu/menu_2/.listpaq")
+									     
+        elif a == "2" or a == "02":					     
+                os.system("bash /data/data/com.termux/files/home/wiki-termux/menu/menu_2/.listinstall")
+        elif a == "3" or a == "03":					     
+                os.system("bash /data/data/com.termux/files/home/wiki-termux/menu/menu_2/.listshow")
+        elif a == "99" or a == "quit" or a == "exit":
+                os.system("bash /data/data/com.termux/files/home/wiki-termux/home.sh")
+        else:
+                print ("\033[1;39mError\033[1;31m [\033[1;39m !\033[1;31m ]: \033[1;39m",a)
+                os.system("sleep 0.5")
+                os.system("clear")
+                os.system("bash /data/data/com.termux/files/home/wiki-termux/source/librerias")
+		
+except KeyboardInterrupt:
+        print("\n Ctrl C Presionado")

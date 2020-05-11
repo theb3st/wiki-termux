@@ -1,0 +1,37 @@
+import os
+def f():
+	p=input("\033[1;33mPRESIONA ENTER PARA CONTINUAR ")
+	if p != "₩":
+		os.system("bash /data/data/com.termux/files/home/wiki-termux/source/solucion")
+	else:
+		os.system("bash /data/data/com.termux/files/home/wiki-termux/source/solucion")
+
+
+try:
+	a = input("\033[1;31mWIKI\033[1;39m-TERMUX > ")
+	if a == "1" or a == "01":
+		os.system("python /data/data/com.termux/files/home/wiki-termux/menu/menu_6/.nl")
+		f()
+
+	elif a == "2" or a == "02":
+		os.system("python /data/data/com.termux/files/home/wiki-termux/menu/menu_6/.nc")
+		f()
+
+	elif a == "3" or a == "03":
+		os.system("python /data/data/com.termux/files/home/wiki-termux/menu/menu_6/.on")
+		f()
+
+	elif a == "4" or a == "04":
+		os.system("python /data/data/com.termux/files/home/wiki-termux/menu/menu_6/.gr")
+		f()
+	
+	elif a == "99" or a == "exit" or a == "quit":
+		os.system("bash /data/data/com.termux/files/home/wiki-termux/home.sh")
+
+	else:
+		print("\033[1;39mError\033[1;31m[ ! ]\033[1;39m",a)
+		os.system("bash /data/data/com.termux/files/home/wiki-termux/source/solucion")
+
+except KeyboardInterrupt:
+	print("\nCtrl C Presionado")
+

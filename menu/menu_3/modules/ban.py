@@ -1,14 +1,10 @@
+import os
+
 class logo:
   @classmethod
   def tool_header(self):
-    print('''\033[1;33m
-("`-''-/").___..--''"`-._
- `6_ 6  )   `-.  (     ).`-.__.`)
- (_Y_.)'  ._   )  `._ `. ``-..-'
-   _..`--'_..-_/  /--'_.'	\033[1;32mHERRAMIENTAS
-  ((((.-''  ((((.'  (((.-'
-''')
-
+    os.system("clear")
+    os.system("python /data/data/com.termux/files/home/wiki-termux/art/.banner003")
   @classmethod
   def nonet(self):
     print ("")
@@ -53,21 +49,23 @@ class logo:
   def not_installed(self,name):
     self.tool_header()
     print(f'''
-\033[1;33mNo se pudo instalar\033[1;32m'{name}'
+\033[1;33mNo se pudo instalar,\033[1;39m Verifica que \033[1;33m'{name}' no este instalado
 ''')
 
   @classmethod
   def back(self):
-    print ("""\033[01;32m 00) \033[1;33m Volver al menú""")
+
+    print ("""\033[01;31m 00) \033[1;39m Volver al menú""")
     print("")
 
   @classmethod
   def menu(self,total):
     self.tool_header()
     print (f'''
-\033[1;33m  [1] \033[1;32m Todas las herramientas.
-\033[1;33m  [2] \033[1;32m Categorias.
-\033[1;33m  [00] \033[1;32m Volver al menú.
+\033[1;31m  		   [1] \033[1;39m Todas las herramientas.
+\033[1;31m  		   [2] \033[1;39m Categorias.
+
+\033[1;31m  		   [00] \033[1;39m Volver al menú.
 
 ''')
   @classmethod

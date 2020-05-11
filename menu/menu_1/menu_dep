@@ -1,28 +1,29 @@
-print("""top: mostrar las tareas de linux usando la mayoría cpu.
+print("""\033[1;35mtop: \033[1;39mmostrar las tareas de linux usando la mayoría cpu.
 
-ps -eafw: muestra las tareas Linux.
+\033[1;35mps -eafw: \033[1;39mmuestra las tareas Linux.
 
-ps -e -o pid,args –forest: muestra las tareas Linux en un modo jerárquico.
+\033[1;35mps -e -o pid,args –forest: \033[1;39mmuestra las tareas Linux en un modo jerárquico.
 
-pstree: mostrar un árbol sistema de procesos.
+\033[1;35mpstree: \033[1;39mmostrar un árbol sistema de procesos.
 
-kill -9 ID_Processo: forzar el cierre de un proceso y terminarlo.
+\033[1;35mkill -9 ID_Processo: \033[1;39mforzar el cierre de un proceso y terminarlo.
 
-kill -1 ID_Processo: forzar un proceso para recargar la configuración.
+\033[1;35mkill -1 ID_Processo: \033[1;39mforzar un proceso para recargar la configuración.
 
-lsof -p $$: mostrar una lista de ficheros abiertos por procesos.
+\033[1;35mlsof -p $$: \033[1;39mmostrar una lista de ficheros abiertos por procesos.
 
-lsof /home/user1: muestra una lista de ficheros abiertos en un camino dado del sistema.
+\033[1;35mlsof /home/user1: \033[1;39mmuestra una lista de ficheros abiertos en un camino dado del sistema.
 
-strace -c ls >/dev/null: mostrar las llamadas del sistema hechas y recibidas por un proceso.
+\033[1;35mstrace -c ls >/dev/null: \033[1;39mmostrar las llamadas del sistema hechas y recibidas por un proceso.
 
-strace -f -e open ls >/dev/null: mostrar las llamadas a la biblioteca.
+\033[1;35mstrace -f -e open ls >/dev/null: \033[1;39mmostrar las llamadas a la biblioteca.
 
-watch -n1 ‘cat /proc/interrupts’: mostrar interrupciones en tiempo real.
+\033[1;35mwatch -n1 ‘cat /proc/interrupts’: \033[1;39mmostrar interrupciones en tiempo real.
 
-free -m: muestra el estado de la RAM en megabytes.
+\033[1;35mfree -m: \033[1;39mmuestra el estado de la RAM en megabytes.
 
-tail /var/log/dmesg: mostrar eventos inherentes al proceso de carga del kernel.
+\033[1;35mtail /var/log/dmesg: \033[1;39mmostrar eventos inherentes al proceso de carga del kernel.
 
-tail /var/log/messages: mostrar los eventos del sistema.
+\033[1;35mtail /var/log/messages: \033[1;39mmostrar los eventos del sistema.
 """)
+

@@ -16,12 +16,10 @@ class sys:
   conf_dir=None
   def __init__(self):
     try:
-      if requests.get("https://www.google.com").ok:
-        self.connection=True
+      self.connection=True
     except:
       self.connection=False
 
-    # checking for system root access
     if os.path.exists("/usr/lib/sudo"):
       self.sudo="sudo"
     elif os.path.exists("/lib/sudo"):
@@ -35,7 +33,6 @@ class sys:
     elif os.path.exists("/sbin/sudo"):
       self.sudo="sudo"
 
-    # checking for configuration dir
     if os.path.exists("/usr/etc"):
       self.conf_dir="/usr/etc"
     elif os.path.exists("/data/data/com.termux/files/usr/etc"):
@@ -43,7 +40,6 @@ class sys:
     elif os.path.exists("/etc"):
       self.conf_dir="/etc"
 
-    # checking for system bin dir and system package manager
     if os.path.exists("/usr/bin/yum"):
       self.sys="linux"
       self.bin="/usr/bin"

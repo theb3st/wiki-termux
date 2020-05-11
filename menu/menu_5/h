@@ -1,0 +1,12 @@
+print("""
+OPERADORES LÓGICOS
+ ----------------------------------------------------------
+Operador Ejemplo Resultado*
+and (y) 5 == 7 and 7 < 12 0 y 0 Falso
+ 9 < 12 and 12 > 7 1 y 1 Verdadero
+ 9 < 12 and 12 > 15 1 y 0 Falso
+or (o) 12 == 12 or 15 < 7 1 o 0 Verdadero
+ 7 > 5 or 9 < 12 1 o 1 Verdadero
+xor 4 == 4 xor 9 > 3 1 o 1 Falso
+(o excluyente) 4 == 4 xor 9 < 3 1 o 0 Verdadero
+""")

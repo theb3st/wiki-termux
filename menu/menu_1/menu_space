@@ -1,8 +1,8 @@
-print("""df: mostrar una lista de las particiones montadas.
+print("""\033[1;31mdf: \033[1;39mmostrar una lista de las particiones montadas.
 
-ls -lSr |more: mostrar el tamaño de los ficheros y directorios ordenados por tamaño.
+\033[1;31mls -lSr |more: \033[1;39mmostrar el tamaño de los ficheros y directorios ordenados por tamaño.
 
-du -sh dir1: Estimar el espacio usado por el directorio ‘dir1’.
-
-du -sk * | sort -rn: mostrar el tamaño de los ficheros y directorios ordenados por tamaño.
+\033[1;31mdu -sh dir1: \033[1;39mEstimar el espacio usado por el directorio ‘dir1’.
+			       
+\033[1;31mdu -sk * | sort -rn: \033[1;39mmostrar el tamaño de los ficheros y directorios ordenados por tamaño.
 """)

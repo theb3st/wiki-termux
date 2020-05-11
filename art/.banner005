@@ -1,0 +1,14 @@
+import os
+
+print("""
+		██╗      ██████╗
+		╚██╗ ██╗██╔════╝
+		 ╚██╗╚═╝██║     
+		 ██╔╝██╗██║     
+		██╔╝ ╚═╝╚██████╗
+		╚═╝      ╚═════╝
+                
+\033[1;39mEste menú esta en desarrollo, lo traere en proximas actualizaciones
+""")
+
+os.system("python /data/data/com.termux/files/home/wiki-termux/int/.anim6")

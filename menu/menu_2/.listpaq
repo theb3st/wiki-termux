@@ -1,0 +1,10 @@
+apt list
+
+echo ""
+read -p "PRESIONA ENTER PARA CONTINUAR..." ps
+
+if [[ $ps != ₩ ]];then
+bash /data/data/com.termux/files/home/wiki-termux/source/librerias
+else
+bash /data/data/com.termux/files/home/wiki-termux/source/librerias
+fi

@@ -1,0 +1,34 @@
+print("""
+           `.-:/+ossyysso+/-.`                                  
+              :+syhhhhyyyyyyyyyyyyss+-`                               
+             -yhhhhyyyyyyyyysssssssssss/                              
+            `shhyyyyyysssssssssssssssso-  .-`                         
+            :yyyyyyssssssooooooooooooo/  `/oo+:-`               `.:++:
+           `syyyyssssooooooo++++++++++.  :/+ooooo++/:-----::/+syhhhho-
+           /yyyssssooooo+++++++++++++:  ./+++++ooooossssyyyyhhhhhhhs+`
+          .syysssoooo++++++//////////`  :////+++++oooosssyyyyhhhhhho- 
+          +yysssooo+++++////////////-  -://////++++oooosssyyyyyhhhs+  
+         -sysssooo++++//////::::::::` `:::://////++++ooosssyyyyhhyo.  
+        `oysssooo++++/////:::::::::.  ::::::://///++++ooosssyyyyho/   
+        :ssssoooo++/////+//::::::::  `:-:::::::////++++ooosssyyyso`   
+       `oso+/:-..```````.--////:::`  :----::::://///+++ooosssyyyo:    
+       `-.```...----...```  `.-:/-  .:-----::::://///+++ooosssyoo     
+      `.-/+oooo+++//:::---.``   `   /------::::::////+++ooosssso-     
+      /sysssooo++///::----....``   `://:---::::::////+++ooossso/      
+     .syssssooo++///:::---.....-   `  .-/////::::////++ooooo+/-`      
+     +yyssssooo+++//:::----...-.  -..``   ..--:://///::--..```        
+    -syysssssoo+++///:::-----.-  `-`.....````      ````..-::/:        
+   `oyyyysssssoo+++///::::----`  -..........---------::::://:.        
+   :yyyyyysssssoo+++////::::--  ............----------:::///-         
+  `shyyyyyyssssoooo+++////:::` `-.........----------:::::///`         
+  /yhhyyyyyysssssooo++++////-  .-......------------::::////-          
+ .shhhhyyyyyyssssssoooo++++/  `------------------:::::////:`          
+ +hhhhhhyyyyyyyysssssooooo+.  -----------------::::://////.           
+-shhyyyso++////+osssssssso:  `--------------::::::///////:            
+/o/:-``           `.:+ssso`  ---------:::::::::://////++/.            
+                       .:-  .-::::::::::::::////////+++/:             
+                            -///:::::////////////++++++/`             
+                             `-://///////////+++++++++/.              
+                                 `.-::///++++///:--.`                 
+
+""")

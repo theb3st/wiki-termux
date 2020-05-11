@@ -13,6 +13,9 @@ archivo archivo2
 
 \033[1;32mEjem:
 \033[1;33mcd micarp
+
+ls
+
 \033[1;32marchivo1 archivo2
 
 \033[1;33mpwd
@@ -20,16 +23,16 @@ archivo archivo2
 
 Ejem:
 \033[1;33mpwd
-/data/data/com.termux/files/home/termux
+\033[1;39m/data/data/com.termux/files/home/termux
 
 \033[1;33mcat
-Permite leer(ver) el contenido de un archivo \033[1;31m SOLO ARCHIVOS
+\033[1;32mPermite leer(ver) el contenido de un archivo \033[1;31m SOLO ARCHIVOS
 
 \033[1;32mEjem:
 \033[1;33mcat miarchivo.txt
 \033[1;32mAqui se mostrara el contenido...
-033[1;36mNota:
-Usa el comando cat --help
+\033[1;36mNota:
+\033[1;39mUsa el comando cat --help
 Para ver todas las opciones
 cat admite todos los formatos(.sh, .py, .txt) etc
 
