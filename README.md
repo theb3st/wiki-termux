@@ -1,3 +1,5 @@
+<h1>Wiki-Termux</h1>
+
 ¿Eres nuevo en termux? Este es un script que te ayudara, es una manual para aquellas personas que se inician en termux.
 En su menú podemos encontrar lo siguiente:
 
