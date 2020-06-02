@@ -21,7 +21,7 @@ INSTALACIÓN:
 
 pkg install git -y
 
-git clone https://github.com/Sh4dowDevelopers/wiki-termux
+git clone https://github.com/theb3st/wiki-termux
 
 cd wiki-termux
 
